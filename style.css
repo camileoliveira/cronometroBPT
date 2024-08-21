@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Unbounded, sans-serif;
+  background-color: #241c23;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.display__card {
+  display: flex;
+  justify-content: center;
+}
+.app__card {
+  border-radius: 2rem;
+  border: 0.2rem solid var(--azul-royal);
+  background: #ffffff;
+  padding: 25px;
+  margin: 6rem 0;
+  width: 38rem;
+  height: 16rem;
+  max-width: 90%;
+  display: flex;
+  justify-content: center;
+}
+
+.app__logo {
+  display: flex;
+  justify-content: center;
+}
+
+.app__card-timer{
+    text-align: center;
+    font-family: Unbounded;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 18px;
+    text-align: center;
+}
+
+.title__round {
+  font-family: Unbounded;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  max-width: 46rem;
+  text-align: center;
+}
+
+.title__descanso{
+  font-family: Unbounded;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  max-width: 46rem;
+  text-align: center;
+  justify-content: center;
+  display: none;
+}
+
+.title__pause {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 200;
+  max-width: 46rem;
+}
+
+.button__startPause {
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 100%;
+  background: #241c23;
+  padding: 0.4rem;
+  color: #ffffff;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  outline: inherit;
+  padding: 10px 18px;
+  font-size: 18px;
+  margin: 8px
+  
+}
+
+.container__button{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.button__reset{
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: 100%;
+    background: #241c23;
+    padding: 0.4rem;
+    color: #ffffff;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    outline: inherit;
+    padding: 10px 18px;
+    font-size: 18px;
+    margin: 8px;
+    display: none;
+}
+
